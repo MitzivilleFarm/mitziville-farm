@@ -142,3 +142,55 @@ form {
     text-align: center;
     color: #fff;
 }
+
+/* For Mobile Devices */
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .form-box {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .input-box input {
+        padding: 13px;
+        font-size: 14px;  
+    }
+
+    .btn {
+        height: 35px;
+        font-size: 14px;
+    }
+
+    .container h1 {
+        font-size: 28px;  
+    }
+}
+
+/* For Tablets */
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .form-box {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .input-box input {
+        padding: 13px;
+        font-size: 14px; 
+    }
+
+    .btn {
+        height: 40px;
+        font-size: 14px;
+    }
+}
