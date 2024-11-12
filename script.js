@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (username === correctUsername && password === correctPassword) {
             // If correct, show success message and redirect
             alert("Login successful!");
-            window.location.href = "https://mitziville-farm-48002796.hubspotpagebuilder.com/en-us/"; 
+            window.location.href = "https://mitziville-farm-48002796.hubspotpagebuilder.com/mitziville-farm-members-page"; 
         } else {
             // If incorrect, show an error message
             document.getElementById('error-message').style.display = 'block';
